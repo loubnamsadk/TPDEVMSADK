@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            color: white;
+            text-align:left;
+            padding-left: auto;
+            padding-right:auto ;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    nav ,button {
+            display: flex;
+            justify-content: space-around;
+            background-color:rosybrown;
+            padding: 10px;
+            color: beige;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 ,ins{
+            color:rosybrown;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        p {
+            line-height: 1.6;
+            color:black;
+        }
+        .contact {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact div {
+            width: 48%;
+        }
+
+        .skills {
+            margin-top: 20px;
+            color:"black";
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color:rosybrown;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+      .profil{
+    position: 10px;
+    width:100;
+    height: 100px;
+    border-radius: 80px;
+    text-align:left;
+      }
+      #monCv{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: larger;
+        color: whitesmoke;
+      }
+    </style>
+</head>
+<body>
+    <script>
+        function afficherBienvenue() {
+            alert("Bienvenue sur mon CV 🌟");
+        }
+    </script>
+</script>
+<section>
+    <nav>
+        <button id="monCv" onclick="afficherBienvenue()">Mon CV</button>
+
+        <a href="#formation">Cursus Scolaire</a>
+        <a href="#experiences-professionnelles">Expériences Professionnelles</a>
+        <a href="#langues">langues</a>
+        <a href="test2.html">Contacter Moi</a>
+
+    </nav>
+
+    <header>
+     
+        <h1>LOUBNA MSADK</h1>
+        <p><strong>étudiante</strong></p>
+        <img src="logo.jpg" class="profil">
+    </header>
+
+    <ins><h2>À propos de moi</h2></ins>
+<p>Je suis une étudiante à la faculté des sciences et techniques à settat en 3 année lst spécialisée en : système d'information et transformation</p>
+        <div class="contact">
+            <div>
+                <ins><h2>Contact</h2></ins>
+                <h2><ins>Email:</ins></h2></p>loubna.msadk@gmail.com</p>
+                <h2><ins>Téléphone:</ins></h2><p>0612988759</p>
+            </div>
+            <div>
+                <h2><ins>Adresse</h2></div></ins>
+                <p>Casablanca hay mohammedi dar laman laman bloc D immeuble 99 appartement 04</p>
+            </div>
+        </div>
+
+        <div class="skills" id="skills" >
+            <h2 ><ins >Compétences</h2></ins>
+            <ul>
+                <li>Travail en groupe</li>
+                <li>Ponctualité</li>
+                <li>Résponsabilité</li>
+                <li>Créativité</li>
+                <li>Programmation en(CSS,JAVA,HTML,PHP,JAVASCRIPT,C)</li>
+                <li>Création des diagrammes en ichikawa,UML</li>
+            </ul>
+        </div>
+        <div class="formation" id="formation">
+            <h1><ins><strong>Formation</strong></ins></h1>
+            <ul>
+                <li>
+                    <h3>Ecole Ryad el madina</h3>
+                    <p>Bac en science physique en (2020.2021)</p>
+                </li>
+                <li>
+                    <strong>faculté des sciences et techniques à SETTAT</strong>
+                    <p>DEUST en MIP(2021.2023)</p>
+                    <p>Licence en système d'information et transformation digitale en (2023.2024)</p>
+                </li>
+                <li>
+                    <strong>ICT COMPTETION </strong>
+                    <p>Assister à une présentation  de la nouvelle édition of ICT COMPETTION en (12.11.2023)</p>
+                </li>
+        </div>
+        <div class="experience" id="experiences-professionnelles">
+            <h1><ins><strong>Expérience professionnelle</strong></ins></h1>
+            <ul>
+                <li>
+                    <h3>Un stage en ONEE(casablanca)</h3>
+                    <p>service commerciale(service des vignettes)   en  date debut(01/07/2023)- Date fin(31/07/2023) </p>
+                </li>
+                </ul>
+        </div>
+        <div class="langues" id="langues">
+            <h1><ins ><strong>Langues</strong></ins></em></h1>
+            <ul>
+                <li>Arabe.</li>
+                <li>Francais.</li>
+                <li>Anglais.</li>
+            </ul>
+        </div>
+        <div class="loisirs" id="loisirs" >
+            <h1><ins><strong>Loisirs</strong></ins></h1>
+            <ul>
+                <li>le voyage.</li>
+                <li>la marche.</li>
+                <li>le sport.</li>
+
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
